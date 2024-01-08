@@ -264,3 +264,59 @@ address {
 .pictures{
     text-align: center;
 }
+.subscribe{
+    width: 52%;
+    height: 100%;
+    background-color: bisque;
+    margin-left: 600px;
+    margin-right: 800px;
+    border-radius: 16px 16px 16px 16px;
+    margin-bottom: 20px;
+
+}
+.subscribe-image{
+    text-align: center;
+
+}
+.subscribe-title{
+    text-align: center;
+}
+.subscribe-now{
+    font-size: 48px;
+    color: #070211;
+    font-weight: 900;
+}
+.subscribe-search{
+    padding-left: 350px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+form{
+    background: #fff;
+    width: 700px;
+    height: 65px;
+    display: flex;
+    font-size: 25px;
+    border-radius: 16px;
+
+    
+}
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    align-items: center;
+    border-radius: 16px 16px 16px;
+    font-size: 22px;
+}
+form button{
+    background: tomato;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 0px 20px 20px 0px;
+}
