@@ -55,6 +55,9 @@
 
 
 }
+main section{
+    margin-top: 120px;
+}
 
 .party {
     width: 100%;
@@ -195,7 +198,6 @@ address {
     font-size: 25px;
     font-weight: 500;
     color: black;
-    padding: 900;
 }
 
 .holiday .function-title {
@@ -249,20 +251,34 @@ address {
     color: #f00;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: -20px;
+   
 
 }
 .products-picture .portfolio{
     font-size: 48px;
     font-weight: 900;
     color: #070211;
+    margin-bottom: -10px;
+    
 }
 .products-picture .describe{
     font-size: 20px;
     font-weight: 300;
     color: rgba(7, 2, 17, 0.60);
+    
 }
 .pictures{
     text-align: center;
+
+}
+.pictures .first-3-picture img{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.pictures .second-3-picture img{
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 .subscribe{
     width: 52%;
@@ -319,4 +335,65 @@ form button{
     cursor: pointer;
     font-size: 20px;
     border-radius: 0px 20px 20px 0px;
+}
+footer section{
+    margin-top: 120px;
+}
+.footer{
+    width: 52%;
+    height: 40vh;
+    background-color: #070211;
+    margin-left: 600px;
+    border-radius: 20px;
+    color: #fff;
+}
+.footer-containe{
+    display: flex;
+
+}
+.footer-top-left{
+    padding-left: 140px;
+    padding-top: 80px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #fff;
+}
+.footer-right{
+    text-align: right;
+    padding-top: 70px;
+    font-size: 27px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-top-right{
+    text-align: right;
+    padding-left: 400px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-buttom-left{
+    padding-left: 140px;
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+.footer-container-buttom{
+    display: flex;
+}
+.footer-buttom-right{
+    text-align: right;
+    padding-left: 520px;
+    padding-top: 40px;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+.footer-images-logo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 0.5px solid rgb(57, 49, 49);
 }
